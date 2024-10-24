@@ -9,52 +9,53 @@
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
+├── LICENSE            <- Лицензия с открытым исходным кодом, если выбрана
+├── Makefile           <- Makefile с удобными командами, такими как `make data` или `make train`
+├── README.md          <- Основной README для разработчиков, использующих этот проект.
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── external       <- Данные от сторонних источников.
+│   ├── interim        <- Промежуточные данные, которые были преобразованы.
+│   ├── processed      <- Финальные, канонические наборы данных для моделирования.
+│   └── raw            <- Исходные, неизменяемые данные.
 │
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
+├── docs               <- Проект документации по умолчанию с использованием mkdocs; см. www.mkdocs.org для деталей.
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models             <- Обученные и сериализованные модели, прогнозы моделей или их характеристики.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter ноутбуки. Принято называть их с использованием номера (для упорядочивания),
+│                         инициалов создателя и краткого описания через `-`, например,
+│                         `1.0-jqp-начальное-исследование-данных`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         test_module and configuration for tools like black
+├── pyproject.toml     <- Конфигурационный файл проекта с метаданными пакета для 
+│                         test_module и настройками для инструментов, таких как black.
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references         <- Словари данных, руководства и все другие справочные материалы.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports            <- Сгенерированные отчёты в формате HTML, PDF, LaTeX и т. д.
+│   └── figures        <- Сгенерированные графики и рисунки для использования в отчётах.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt   <- Файл с зависимостями для воспроизведения аналитического окружения,
+│                         например, сгенерированный командой `pip freeze > requirements.txt`.
 │
-├── setup.cfg          <- Configuration file for flake8
+├── setup.cfg          <- Конфигурационный файл для flake8.
 │
-└── test_module   <- Source code for use in this project.
+└── test_module   <- Исходный код для использования в этом проекте.
     │
-    ├── __init__.py             <- Makes test_module a Python module
+    ├── __init__.py             <- Делает test_module Python модулем.
     │
-    ├── config.py               <- Store useful variables and configuration
+    ├── config.py               <- Хранит полезные переменные и конфигурации.
     │
-    ├── dataset.py              <- Scripts to download or generate data
+    ├── dataset.py              <- Скрипты для загрузки или генерации данных.
     │
-    ├── features.py             <- Code to create features for modeling
+    ├── features.py             <- Код для создания признаков (features) для моделирования.
     │
     ├── modeling                
     │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
+    │   ├── predict.py          <- Код для выполнения инференса модели с обученными моделями.
+    │   └── train.py            <- Код для обучения моделей.
     │
-    └── plots.py                <- Code to create visualizations
+    └── plots.py                <- Код для создания визуализаций.
+
 ```
 
 --------
